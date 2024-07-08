@@ -23,7 +23,7 @@ This project aims to analyze supermarket customer data to understand purchasing 
 
 ## Description of the Dataset
 The data can be accessed at the following link: [Customer Supermarket](https://drive.google.com/drive/folders/1WodnBbuYTvsF0-6HTuQABQ0KCS31lqbK), which has 2240 rows and  29 columns.
-[Content Attributes, People & Products](image\CA_People&Products.png)
+![Content Attributes, People & Products](image\CA_People&Products.png)
 [Content Attributes, Promotion & Place](image\CA_Promotion&Place.png)
 
 ## Data Cleaning and Preparation Processes
