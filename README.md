@@ -60,6 +60,7 @@ The code replaces values in the "Education" column of df_new to categorize educa
 
 ### Making Age Column
 The code calculates the age of each customer by subtracting their birth year (Year_Birth) from 2014, which serves as the reference year for the calculation. This creates a new column Age in the df_new DataFrame, providing insights into the age distribution of customers based on their birth year.
+
 ![Change Education Column](image/Age_Column.png)
 
 ### Making Childern Column
