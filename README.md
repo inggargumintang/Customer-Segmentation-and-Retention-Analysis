@@ -28,13 +28,13 @@ The data can be accessed at the following link: [Customer Supermarket](https://d
 
 ## Data Cleaning and Preparation Processes
 ### Data Type Changes
-[Data Type Changes](image\Data_Types_Changes.png)
+![Data Type Changes](image/Data_Types_Changes.png)
 To perform a more accurate and efficient analysis, it is necessary to change the data types for the following columns: Education, Marital_Status, and Dt_Customer.
 - `Education` and `Marital_Status`:The Education and Marital_Status columns should be changed to categorical data types. This change will help in the data analysis by enabling more efficient analysis methods and a more precise representation of the data.
 - `Dt_Customer`: The Dt_Customer column should be changed to a datetime data type. This change will facilitate analyses that involve dates, such as calculating the time since a customer's enrollment or other time-based analyses.
 
 ### Handling Missing Value
-[Handling Missing Value](image\Handling_Missing_Value.png)
+![Handling Missing Value](image/Handling_Missing_Value.png)
 Identification of Missing Values:
 - Since the Income column has less than 5% missing values, they can be handled by filling with the mean.
 There are two options for handling missing values:
