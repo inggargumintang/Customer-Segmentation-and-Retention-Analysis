@@ -1,7 +1,7 @@
 # Enhancing Marketing Strategies Through Customer Segmentation and Retention Analysis
 ## Capstone Project #2 | Inggar Gumintang | JCDSOL - 014 - 2
-Youtube: 
-Tableau:
+- Youtube: 
+- Tableau:
 
 ## Project Description
 This project aims to analyze supermarket customer data to understand purchasing behaviors and customer preferences. By employing segmentation techniques, statistical analysis, and data visualization, the project focuses on developing more effective marketing strategies and personalization to enhance customer engagement and revenue growth.
@@ -42,41 +42,41 @@ There are two options for handling missing values:
 - Fill in missing data: Replace missing values with appropriate or close estimates based on related columns using domain knowledge or statistical relationships. If this is not possible, use the mean, median, or mode. Deleting data should be a last resort.
 
 ### Checking Duplicate Update
-[Checking Duplicate Update](image\Checking_Duplicate.png)
+![Checking Duplicate Update](image/Checking_Duplicate.png)
 The analysis revealed 0 duplicate rows in the dataset, ensuring data integrity and uniqueness across records.
 
 ### Checking Outliers
-[Checking Outliers](image\Outliers.png)
+![Checking Outliers](image/Outliers.png)
 The columns MntWines, MntFruits, MntMeatProducts, MntFishProducts, MntSweetProducts, and MntGoldProds contain numerous outliers. However, we will not drop them because high-spending customers (outliers) are often significant for business insights. They represent a small but valuable segment of customers who contribute a large portion of revenue. Dropping them could lead to a loss of crucial information about high-value customers.
 
 ## Data Transformation
 ### Change Marital Status
 The code replaces specific values in the Marital_Status column of df_new DataFrame with broader categories like 'Relationship' and 'Single'. This simplification aims to streamline customer data analysis and segmentation based on marital status.
-[Change Marital Status](image\Marital_Status.png)
+![Change Marital Status](image/Marital_Status.png)
 
 ### Change Education Column
 The code replaces values in the "Education" column of df_new to categorize educational levels into broader categories: "Graduate" for Graduation, PhD, and Master degrees, and "Undergraduate" for 2n Cycle and Basic education. It then prints the value counts of each category, providing a summary of the distribution of educational backgrounds among customers.
-[Change Education Column](image\Education_Levels.png)
+![Change Education Column](image/Education_Levels.png)
 
 ### Making Age Column
 The code calculates the age of each customer by subtracting their birth year (Year_Birth) from 2014, which serves as the reference year for the calculation. This creates a new column Age in the df_new DataFrame, providing insights into the age distribution of customers based on their birth year.
-[Change Education Column](image\Age_Column.png)
+![Change Education Column](image/Age_Column.png)
 
 ### Making Childern Column
 The code creates a new column named 'Children' in the DataFrame df_new. This column sums up the values from two existing columns, 'Kidhome' and 'Teenhome', representing the number of children in each household. The purpose is to consolidate the information about children in a more convenient single column for analysis or reporting purposes.
-[Making Children Column](image\Children_Column.png)
+![Making Children Column](image/Children_Column.png)
 
 ### Making Monthly Income Column
 The code snippet adds a new column named 'Monthly Income' to the DataFrame df_new. This column is created by dividing the existing 'Income' column by 12, which converts the annual household income of each customer into a monthly equivalent. This transformation facilitates further analysis and insights based on monthly income levels, enabling more granular examination of consumer spending patterns, budgeting behaviors, and financial planning considerations within the dataset.
-[Making Monthly Income Column](image\Monthly_Income.png)
+![Making Monthly Income Column](image/Monthly_Income.png)
 
 ### Making Monthly Spending Column
 The code first creates a new column named 'Total Spending' in the DataFrame df_new. This column is the sum of the values from six existing columns: 'MntWines', 'MntFruits', 'MntMeatProducts', 'MntFishProducts', 'MntSweetProducts', and 'MntGoldProds'. Each of these columns represents the amount spent by customers on different product categories over two years. The purpose of creating the 'Total Spending' column is to calculate the overall spending of each customer across all product categories. Next, the code creates another column named 'Monthly Spending' by dividing the 'Total Spending' by 24. This calculation provides the average monthly spending of each customer, assuming the data covers a period of two years. The 'Monthly Spending' column is useful for further analysis, such as identifying high-value customers on a monthly basis or understanding monthly spending behavior.
-[Making Monthly Income Column](image\Monthly_Spending.png)
+![Making Monthly Spending Column](image/Monthly_Spending.png)
 
 ### Rename Column
 The code renames several columns in the DataFrame df_new to more concise and readable names. This makes the dataset easier to understand and work with. The purpose is to improve the clarity of the dataset by replacing the original column names with shorter, more descriptive names that are easier to reference in analysis and visualization.
-[Rename Column](image\Rename_Column.png)
+![Rename Column](image/Rename_Column.png)
 
 ## Data Analysis
 ### Customer Segmentation Insights
@@ -84,7 +84,7 @@ The code renames several columns in the DataFrame df_new to more concise and rea
 
 |          Monthly Income                |         Monthly Spending                   |
 | :------------------------------------: | :----------------------------------------: |
-| ![Income](image\DA_Monthly_Income.png) | ![Spending](image\DA_Monthly_Spending.png) |
+| ![Income](image/DA_Monthly_Income.png) | ![Spending](image/DA_Monthly_Spending.png) |
 
 Based on the previous analysis and the insight that the average monthly spending percentage of 0.58% indicates a potentially low level of consumer expenditure relative to their income, here are additional strategies and insights:
 
@@ -103,7 +103,7 @@ By integrating these additional strategies into the existing framework, business
 
 #### Analyzing Consumer Spending Patterns Across Different Age Groups
 
-[Spending per Age Group](image\DA_Spending_Age.png)
+![Spending per Age Group](image/DA_Spending_Age.png)
 
 From the graph, we observe that:
 - The average spending increases progressively with age.
@@ -136,7 +136,7 @@ By implementing these strategies, the business can better engage customers acros
 
 |             Marital Status              |               Education Levels              |
 | :-------------------------------------: | :-----------------------------------------: |
-| ![Marital](image\DA_Marital_Status.png) | ![Education](image\DA_Education_Levels.png) |
+| ![Marital](image/DA_Marital_Status.png) | ![Education](image/DA_Education_Levels.png) |
 
 The majority of customers are in the 'Relationship' category and have 'Postgraduate' education levels. This suggests that a significant portion of the customer base consists of educated couples or individuals in stable relationships. Marketing strategies should prioritize this dominant group by offering premium products or services that cater to their sophisticated tastes and family-oriented needs.
 
@@ -173,7 +173,7 @@ By integrating insights from both marital status and education level proportions
 
 #### Holiday Magic: Winning Over Customers with Strategic Family Packages
 
-[Number of Children](image\DA_Number_Children.png)
+![Number of Children](image/DA_Number_Children.png)
 
 The results indicate that customers with one child outnumber those without children, with two children, and with three children. This suggests that the group of customers with one child holds significant influence in purchasing patterns or consumer preferences within the supermarket dataset. Such analysis provides insights for marketing teams to tailor more specific strategies or adjust product offerings that better suit the preferences of this customer segment.
 
@@ -181,7 +181,7 @@ Furthermore, this data highlights the potential for implementing holiday package
 
 #### Targeted Treats: Maximizing Profit with Family-Focused Products
 
-[Spend Product](image\DA_Spend_Product.png)
+![Spend Product](image/DA_Spend_Product.png)
 
 The bar chart above reveals that the highest spending is on wines, meats, and gold. Conversely, spending on fish, sweets, and fruits is significantly lower. Additionally, our previous analysis indicates that the monthly spending is only 0.58% of the total monthly income. This suggests that customers might be allocating a minimal portion of their budget to these categories.
 
@@ -218,7 +218,7 @@ By implementing these strategies, we can better cater to the needs of families, 
 
 #### Beyond the Checkout: Unveiling Opportunities in Store and Web Purchases
 
-[Purchases Place](image\DA_Purchases_Place.png)
+![Purchases Place](image/DA_Purchases_Place.png)
 
 The analysis reveals that store purchases dominate as the most common method of purchase, followed by web purchases, catalog purchases, and deals purchases. This indicates that while traditional in-store shopping remains the preferred choice among customers, there is a significant trend towards online shopping, highlighting the growing importance of e-commerce. Catalog and deals purchases are less popular, suggesting potential areas for targeted marketing and promotional efforts to boost these channels.
 
@@ -261,7 +261,7 @@ By implementing these strategies, the business can boost marketing campaigns via
 ### Analysis of Customer Retention
 #### Recency Radar: Navigating Peaks in Customer Engagement
 
-[Recency Distribution](image\DA_Recency_Distribution.png)
+![Recency Distribution](image/DA_Recency_Distribution.png)
 
 The distribution of Recency in the data shows distinct peaks on specific days (around 0, 10, 30, 50, and 90 days). These high-frequency days indicate increased purchasing activity from customers, although the overall distribution of Recency does not follow a normal pattern.
 
@@ -287,7 +287,7 @@ With this action plan, you can leverage Recency data to enhance customer retenti
 
 #### Segment Spotlight: Unveiling Recency-Based Spending
 
-[Recency Distribution](image\DA_Recency_Segment.png)
+![Recency Distribution](image/DA_Recency_Segment.png)
 
 While the distribution of customers based on Recency segments is fairly balanced, there is no significant difference observed in the average total spending across segments.
 
@@ -296,7 +296,7 @@ While the distribution of customers based on Recency segments is fairly balanced
 ### Campaign Insights Unveiled
 #### Campaign Data Distribution and Response Analysis
 
-[Campaign Distribution](image\DA_Campaign_Distribution.png)
+![Campaign Distribution](image/DA_Campaign_Distribution.png)
 
 The results of the normality tests indicate that all campaign columns (Campaign 1, Campaign 2, Campaign 3, Campaign 4, Campaign 5) and the response column have very low p-values (close to 0.0), meaning that the data in these columns are not normally distributed. Therefore, non-parametric tests such as the Chi-Square test are more appropriate.
 
@@ -307,7 +307,7 @@ Based on these results, the use of the Chi-Square test is justified because:
 All p-values are very low (well below the significance level of 0.05), meaning we can conclude that there is a statistically significant relationship between each campaign and the response. Thus, the initial use of the Chi-Square test was appropriate, and the results indicate a significant relationship between the variables.
 
 #### Statistical Correlation Between Campaigns and Response
-[Correlation Campaign & Response](image\DA_Campaign_vs_Response.png)
+![Correlation Campaign & Response](image/DA_Campaign_vs_Response.png)
 
 All campaign offers show a statistically significant relationship with the customer's response to the last campaign. This indicates that customers who responded positively to earlier campaigns are more likely to respond positively to future campaigns.
 
