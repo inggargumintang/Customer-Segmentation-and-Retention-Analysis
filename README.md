@@ -9,10 +9,12 @@ This project aims to analyze supermarket customer data to understand purchasing 
 `Background and Context:`
 - Supermarkets face intense competition and need to retain customers to maintain profitability.
 - Customer segmentation and retention analysis help understand different customer groups and their behaviors, enabling personalized marketing strategies and improved engagement.
+
 `Objectives of the Analysis:`
 - Customer Profiling: Develop detailed profiles of customer segments.
 - Retention Insights: Analyze recency data to understand retention patterns.
 - Campaign Insights Unveiled:  Reveal valuable insights from marketing campaigns to improve strategic decision-making.
+
 `Scope and Methodology:`
 - Stakeholders: Business and Marketing Strategy Manager.
 - Case study in a four-season country.
