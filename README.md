@@ -223,7 +223,7 @@ By implementing these strategies, we can better cater to the needs of families, 
 
 ![Purchases Place](image/DA_Purchases_Place.png)
 
-The analysis reveals that store purchases dominate as the most common method of purchase, followed by web purchases, catalog purchases, and deals purchases. This indicates that while traditional in-store shopping remains the preferred choice among customers, there is a significant trend towards online shopping, highlighting the growing importance of e-commerce. Catalog and deals purchases are less popular, suggesting potential areas for targeted marketing and promotional efforts to boost these channels.
+The analysis reveals that store purchases dominate as the most common method of purchase, followed by web purchases, catalog purchases, and deals purchases. This indicates that while traditional in-store shopping remains the preferred choice among customers, there is a significant trend towards online shopping, highlighting the growing importance of e-commerce. Catalog and deals purchases are less popular, suggesting potential areas for targeted marketing and promotional efforts to boost these channels. Additionally, the average number of web visits is approximately 5 times per month for each customer, indicating a substantial level of online engagement that can be further leveraged through targeted digital marketing strategies.
 
 
 Action Plan
