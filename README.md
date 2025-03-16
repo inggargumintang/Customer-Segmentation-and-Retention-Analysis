@@ -1,6 +1,5 @@
 # Enhancing Marketing Strategies Through Customer Segmentation and Retention Analysis
 ## Capstone Project #2 | Inggar Gumintang | JCDSOL - 014 - 2
-- Video: [Capstone 2-Video](https://drive.google.com/file/d/1_nO8W8wckYJ2GcEaKFz5MwDYPaOtTOXE/view?usp=sharing)
 - Tableau: [Capstone 2-Tableau](https://public.tableau.com/views/Capstone2_17202812459990/Capstone?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link),
 
 ## Project Description
